@@ -1,7 +1,10 @@
 <template>
-  <div class="bg-slate-800">
+  <div class="bg-[#F4F2EE] h-screen">
     <NuxtLayout>
-      <NuxtPage />
+      <Header />
+      <div class="flex justify-center">
+        <NuxtPage />
+      </div>
     </NuxtLayout>
   </div>
 </template>
