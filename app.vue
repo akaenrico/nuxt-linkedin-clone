@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#F4F2EE] h-screen">
+  <div class="bg-background dark:bg-dt-background h-screen">
     <NuxtLayout>
       <Header />
       <div class="flex justify-center">

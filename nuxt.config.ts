@@ -8,4 +8,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  // TODO Initial configuration for dark theme
+  // colorMode: {
+  //   preference: 'dark',
+  //   fallback: 'dark',
+  //   classSuffix: '',
+  // }
 })
