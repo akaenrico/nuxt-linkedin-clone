@@ -557,12 +557,33 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.0.tgz#0709e9f4cb252351c609c6e6d8d6779a8d25edff"
   integrity sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==
 
+"@iconify-json/devicon@^1.1.35":
+  version "1.1.35"
+  resolved "https://registry.yarnpkg.com/@iconify-json/devicon/-/devicon-1.1.35.tgz#68f99ee7aabe257c6bc2add0915dac81a912727b"
+  integrity sha512-xPq675XakoRjYAqXAC3JPsVSP1Y0AzL2xsJSRYQMw657Yqv7JtI/jX93l0WhjhyjbfOZ/by9wS3UoiKw7LFBfQ==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/ic@^1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@iconify-json/ic/-/ic-1.1.17.tgz#d1676582fccb45cfbc5e3dd0e100b2ec974c13c9"
+  integrity sha512-EvAjZzVESmN36zlyefylePUNaU2BQ3eRKVZ6KQSQ2bG01ppoZaiFZRri74VTyvp5Mlv2yn68ux1fgCoT+etGmA==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify/collections@^1.0.374":
   version "1.0.396"
   resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.396.tgz#734d6060b53577676d0f2b8c4d6243f03c023a0b"
   integrity sha512-Lw2eFbBM4FFwKGucv5jnbonUfkG+b43BERnPzOfA+/fGPWAhNtUUNCZa24CULRdeBnulIj+eEkstW96EAqBWiQ==
   dependencies:
     "@iconify/types" "*"
+
+"@iconify/tailwind@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@iconify/tailwind/-/tailwind-0.1.4.tgz#c5baee6e863d01d7b1d5ff3f0c5cd4fc49b2c0c7"
+  integrity sha512-U7RzcU2fkwOfMDsGQ3mtpLIaApSnqb+vgcJJknPPbg8/NF5s7tI1o5otEMfcpnLGk4PbYB8bxmKTz7IJVUlU2Q==
+  dependencies:
+    "@iconify/types" "^2.0.0"
 
 "@iconify/types@*", "@iconify/types@^2.0.0":
   version "2.0.0"
