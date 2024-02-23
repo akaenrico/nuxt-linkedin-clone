@@ -2,7 +2,7 @@
   <div class="bg-white w-screen h-12 drop-shadow-sm">
     <header class="px-5 h-full flex">
       <div id="globalNav" class="mx-auto w-full flex justify-center items-center">
-        <a href="" target="_blank">
+        <a href="https://www.linkedin.com/in/enrico-brosque-palma/" target="_blank">
           <svg class="icon-[devicon--linkedin] mx-2" style="width: 2.3rem; height: 2.3rem;"></svg>
         </a>
         <div id="searchInput" class="flex items-center">
@@ -13,9 +13,16 @@
           </svg>
           <input type="text" placeholder="Search..." class="bg-[#EDF3F8] rounded h-8 ps-10 w-[25rem]">
         </div>
-        <ul class="flex">
-          <li v-for="item in menuItems" class="px-4"><a href="" target="_self">{{ item.name }}</a></li>
-        </ul>
+        <div>
+          <ul class="flex">
+            <li v-for="item in menuItems" class="px-4">
+              <a href="" target="_self">
+                <div></div>
+                <span class="text-xs text-icon invisible md:visible">{{ item.name }}</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
     </header>
