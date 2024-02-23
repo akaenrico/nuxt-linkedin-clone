@@ -18,7 +18,8 @@ export default {
         dt: {
           background: '#0b0b0b'
         },
-        background: '#F4F2EE'
+        background: '#F4F2EE',
+        icon: '#3C3D3E',
       }
     },
   },
